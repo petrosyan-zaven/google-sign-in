@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getPosts } from '../../api';
 import TitleList from '../../pages/TitleList';
-import { Link } from 'react-router-dom';
 
 const PostList = () => {
 

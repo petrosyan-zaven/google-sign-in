@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes, Routs } from 'react-router-dom';
 import Home from './pages/Home';
 import SingleTitle from './pages/SingleTitle';
-import TitleList from './pages/TitleList'
 import Header from './components/Header'
 
 const App = () => {

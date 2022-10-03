@@ -21,7 +21,9 @@ const SingleTitle = () => {
       {
         postById && 
         <div>
-          <h2>{postById.title}</h2>
+          <h2>{postById.id}. {postById.title}</h2>
+          <h5>{postById.body}</h5>
+
         </div>
       }
       <button onClick={()=> navigate(-1)}>GO BACK</button>
