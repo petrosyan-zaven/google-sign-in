@@ -9,7 +9,7 @@ const TitleList = ({posts}) => {
 
   return (
     <div className='TitleList'>
-      <Link to={'/' + posts.id}> {posts.title}</Link> 
+      <Link to={'/' + posts.id}>{posts.id} . {posts.title}</Link> 
     </div>
   )
 }
